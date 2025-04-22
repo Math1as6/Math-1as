@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>رياضيات 1AS</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+      color: #2c3e50;
+    }
+    
+    header {
+      background-color: #3498db;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 30px;
+    }
+
+    button {
+      padding: 15px 20px;
+      font-size: 18px;
+      background-color: #82c91e;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #74b816;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #dfe6e9;
+    }
+
+    .footer button {
+      background-color: #e74c3c;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .footer span {
+      font-size: 24px;
+      color: gold;
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>رياضيات 1AS</header>
+
+  <div class="container">
+    <button onclick="location.href='algebra.html'">قواعد عامة للجبر</button>
+    <button onclick="location.href='geometry.html'">قواعد عامة للهندسة</button>
+    <button onclick="location.href='suggestions.html'">إضافة اقتراحات</button>
+  </div>
+
+  <div class="footer">
+    <button onclick="alert('تم الخروج من الصفحة')">Exit - خروج</button>
+    <p>تقييم الصفحة:</p>
+    <span>★ ★ ★ ★ ★</span>
+  </div>
+
+</body>
+</html>
